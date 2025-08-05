@@ -1,4 +1,25 @@
-# beginner-html-site-styled
-A simple one page website created to help complete beginners learn HTML basics, which in this repo has also been styled to help beginners learn CSS basics. The styling is explained over the course of [https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/CSS_basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/CSS_basics).
 
-[Run the example live](http://mdn.github.io/beginner-html-site-styled/).
+
+# Beginner HTML Site - Jenkins CI/CD Pipeline (Elevate Labs Day 2)
+
+This repository contains a simple HTML + CSS project with a working Jenkins pipeline integration for CI/CD purposes.
+
+## ✅ What I Did
+
+- Forked a basic static HTML/CSS site to learn CI/CD
+- Added a `Jenkinsfile` to the repo to automate the pipeline process
+- Set up Jenkins on my local Linux system using Docker
+- Connected Jenkins with this GitHub repository
+- Created a Pipeline job in Jenkins that:
+  - 🔨 **Builds**: Lists project files
+  - ✅ **Tests**: Runs a dummy syntax check (echo-based)
+  - 🚀 **Deploys**: Prints deploy message (for now)
+
+## 🛠️ Tools Used
+
+- Jenkins (via Docker)
+- GitHub
+- Linux (Ubuntu)
+- Shell scripting for basic pipeline steps
+
+and Here are some screenshot which verify my work - https://drive.google.com/file/d/1fskgbRsWPRAidoYoBNFMhy2LQbwOlqxy/view?usp=sharing
